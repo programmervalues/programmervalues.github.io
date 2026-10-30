@@ -1,20 +1,26 @@
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
-<link href="style.css" rel="stylesheet" type="text/css">
-<title>Programming Values Results</title>
-<link rel="icon" type="x-icon" href="icon.png">
-<link rel="shortcut icon" type="x-icon" href="icon.png">
-<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script>
-    version = "Programming Values Test #1";
-</script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Programming Values Results</title>
+
+    <link rel="icon" type="image/x-icon" href="icon.png">
+
+    <script>
+        var version = "Programming Values Test #2";
+    </script>
+
+    <script src="ideologies.js"></script>
 </head>
 
-<script type="application/javascript" src="ideologies.js"></script>
-
 <body>
+
 <h1>Programming Values</h1>
 <hr>
 
@@ -28,116 +34,173 @@ created, maintained, and used.
 
 <h2>Licensing Axis: <span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
-    <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
-    <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
-    <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" src="value_images/markets.svg" height="128pt"/>
+    <img src="value_images/equality.svg" height="128pt">
+    <div class="bar equality" id="bar-equality">
+        <div class="text-wrapper" id="equality"></div>
+    </div>
+    <div class="bar wealth" id="bar-wealth">
+        <div class="text-wrapper" id="wealth"></div>
+    </div>
+    <img src="value_images/markets.svg" height="128pt">
 </div>
 
 <h2>Innovation Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
-    <img id="img-might" src="value_images/nation.svg" height="128pt"/>
-    <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
-    <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" src="value_images/globe.svg" height="128pt"/>
+    <img src="value_images/nation.svg" height="128pt">
+    <div class="bar might" id="bar-might">
+        <div class="text-wrapper" id="might"></div>
+    </div>
+    <div class="bar peace" id="bar-peace">
+        <div class="text-wrapper" id="peace"></div>
+    </div>
+    <img src="value_images/globe.svg" height="128pt">
 </div>
 
 <h2>Abstraction Axis: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
-    <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
-    <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
-    <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
-    <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
+    <img src="value_images/liberty.svg" height="128pt">
+    <div class="bar liberty" id="bar-liberty">
+        <div class="text-wrapper" id="liberty"></div>
+    </div>
+    <div class="bar authority" id="bar-authority">
+        <div class="text-wrapper" id="authority"></div>
+    </div>
+    <img src="value_images/authority.svg" height="128pt">
 </div>
 
 <h2>Wackiness Axis: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
-    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
-    <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
-    <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
-    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+    <img src="value_images/tradition.svg" height="128pt">
+    <div class="bar tradition" id="bar-tradition">
+        <div class="text-wrapper" id="tradition"></div>
+    </div>
+    <div class="bar progress" id="bar-progress">
+        <div class="text-wrapper" id="progress"></div>
+    </div>
+    <img src="value_images/progress.svg" height="128pt">
 </div>
 
-<h2>Your Programming Ideology: <span class="weight-300" id="ideology-label"></span></h2>
+<hr>
 
-<p>
-Your closest ideology is determined by comparing your answers with the characteristics
-of different programming philosophies.
+<h2>Your Programming Ideology</h2>
+
+<h2 class="weight-300" id="ideology-label">Calculating...</h2>
+
+<p id="ideology-description">
+Your closest programming ideology is calculated by comparing your results
+with the profiles in our ideology database.
 </p>
 
-<p>
-Ideological matching is a work in progress and may not perfectly represent your
-programming preferences. Your individual axis scores are generally a more useful
-representation of your results.
-</p>
+<p id="ideology-distance"></p>
 
 <p>
-Want to share your results? Copy the URL at the top of the page or save the results
-image below. You can also share your programming ideology and suggestions to help
-improve the test.
+Ideological matching is a work in progress and may not perfectly represent
+your programming preferences. Your individual axis scores are generally
+a more useful representation of your results.
 </p>
 
-<hr/>
+<hr>
 
-<img src="" id="banner">
+<h2>Share Your Results</h2>
 
-<br>
-<button class="button" onclick="location.href='index.html';">Take the Test Again</button>
+<p>
+Copy the URL at the top of the page to share your results, or save the
+image below.
+</p>
 
-<!-- Website visit statistics -->
-<script type="text/javascript">
-var sc_project=11325211;
-var sc_invisible=1;
-var sc_security="fd9f0659";
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
+<img src="" id="banner" alt="Your Programming Values results image">
 
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
+<br><br>
 
-<noscript>
-<div class="statcounter">
-<a title="web stats" href="http://statcounter.com/" target="_blank">
-<img class="statcounter"
-src="//c.statcounter.com/11325211/0/fd9f0659/1/"
-alt="web stats">
-</a>
-</div>
-</noscript>
+<button class="button" onclick="location.href='index.html';">
+    Take the Test Again
+</button>
 
 <script>
-function getQueryVariable(variable)
-{
+
+// ==========================================
+// QUERY PARAMETERS
+// ==========================================
+
+function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
     var vars = query.split("&");
 
     for (var i = 0; i < vars.length; i++) {
         var pair = vars[i].split("=");
 
-        if(pair[0] == variable) {
-            return pair[1];
+        if (decodeURIComponent(pair[0]) === variable) {
+            return decodeURIComponent(pair[1]);
         }
     }
 
-    return(NaN);
+    return null;
 }
 
-function setBarValue(name, value) {
-    innerel = document.getElementById(name);
-    outerel = document.getElementById("bar-" + name);
+function getScore(variable) {
+    var value = parseFloat(getQueryVariable(variable));
 
-    outerel.style.width = (value + "%");
-    innerel.innerHTML = (value + "%");
+    if (!Number.isFinite(value)) {
+        return 50;
+    }
+
+    return Math.max(0, Math.min(100, value));
+}
+
+
+// ==========================================
+// AXIS SCORES
+// ==========================================
+
+var equality = getScore("e");
+var peace = getScore("d");
+var liberty = getScore("g");
+var progress = getScore("s");
+
+var wealth = 100 - equality;
+var might = 100 - peace;
+var authority = 100 - liberty;
+var tradition = 100 - progress;
+
+
+// ==========================================
+// BAR DISPLAY
+// ==========================================
+
+function setBarValue(name, value) {
+    var innerel = document.getElementById(name);
+    var outerel = document.getElementById("bar-" + name);
+
+    if (!innerel || !outerel) return;
+
+    outerel.style.width = value + "%";
+    innerel.innerHTML = value.toFixed(1) + "%";
+
+    innerel.style.visibility = "visible";
 
     if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
         innerel.style.visibility = "hidden";
     }
 }
 
-// Labels for each programming axis
-econArray = [
+setBarValue("equality", equality);
+setBarValue("wealth", wealth);
+
+setBarValue("peace", peace);
+setBarValue("might", might);
+
+setBarValue("liberty", liberty);
+setBarValue("authority", authority);
+
+setBarValue("progress", progress);
+setBarValue("tradition", tradition);
+
+
+// ==========================================
+// AXIS LABELS
+// ==========================================
+
+var econArray = [
     "Fully Open-Source",
     "Open-Source",
     "Source-Available",
@@ -147,7 +210,7 @@ econArray = [
     "Fully Proprietary"
 ];
 
-diplArray = [
+var diplArray = [
     "Extremely Innovative",
     "Very Innovative",
     "Experimental",
@@ -157,7 +220,7 @@ diplArray = [
     "Extremely Conventional"
 ];
 
-govtArray = [
+var govtArray = [
     "Extremely Low-Level",
     "Low-Level",
     "Systems-Oriented",
@@ -167,7 +230,7 @@ govtArray = [
     "Extremely High-Level"
 ];
 
-sctyArray = [
+var sctyArray = [
     "Completely Wacky",
     "Very Unconventional",
     "Unconventional",
@@ -177,36 +240,16 @@ sctyArray = [
     "Completely Conventional"
 ];
 
-function setLabel(val,ary) {
-    if (val > 100) { return "" } else
-    if (val > 90) { return ary[0] } else
-    if (val > 75) { return ary[1] } else
-    if (val > 60) { return ary[2] } else
-    if (val >= 40) { return ary[3] } else
-    if (val >= 25) { return ary[4] } else
-    if (val >= 10) { return ary[5] } else
-    if (val >= 0) { return ary[6] } else
-    { return "" }
+function setLabel(val, ary) {
+    if (val > 90) return ary[0];
+    if (val > 75) return ary[1];
+    if (val > 60) return ary[2];
+    if (val >= 40) return ary[3];
+    if (val >= 25) return ary[4];
+    if (val >= 10) return ary[5];
+
+    return ary[6];
 }
-
-equality  = getQueryVariable("e");
-peace     = getQueryVariable("d");
-liberty   = getQueryVariable("g");
-progress  = getQueryVariable("s");
-
-wealth    = (100 - equality).toFixed(1);
-might     = (100 - peace).toFixed(1);
-authority = (100 - liberty).toFixed(1);
-tradition = (100 - progress).toFixed(1);
-
-setBarValue("equality", equality);
-setBarValue("wealth", wealth);
-setBarValue("peace", peace);
-setBarValue("might", might);
-setBarValue("liberty", liberty);
-setBarValue("authority", authority);
-setBarValue("progress", progress);
-setBarValue("tradition", tradition);
 
 document.getElementById("economic-label").innerHTML =
     setLabel(equality, econArray);
@@ -220,128 +263,197 @@ document.getElementById("state-label").innerHTML =
 document.getElementById("society-label").innerHTML =
     setLabel(progress, sctyArray);
 
-// Closest programming ideology
-ideology = "";
-ideodist = Infinity;
 
-for (var i = 0; i < ideologies.length; i++) {
-    dist = 0;
+// ==========================================
+// IDEOLOGY MATCHING
+// ==========================================
 
-    dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2);
-    dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2);
-    dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063);
-    dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063);
+var ideology = "";
+var ideodist = Infinity;
+var closestIdeology = null;
 
-    if (dist < ideodist) {
-        ideology = ideologies[i].name;
-        ideodist = dist;
+var ideologiesAvailable =
+    typeof ideologies !== "undefined" &&
+    Array.isArray(ideologies);
+
+if (ideologiesAvailable) {
+
+    for (var i = 0; i < ideologies.length; i++) {
+
+        var candidate = ideologies[i];
+
+        if (
+            !candidate ||
+            !candidate.stats ||
+            typeof candidate.stats.econ !== "number" ||
+            typeof candidate.stats.dipl !== "number" ||
+            typeof candidate.stats.govt !== "number" ||
+            typeof candidate.stats.scty !== "number"
+        ) {
+            continue;
+        }
+
+        // Compare all four axes.
+        // Variable names intentionally retained from 8values.
+
+        var dist = 0;
+
+        dist += Math.pow(
+            Math.abs(candidate.stats.econ - equality), 2
+        );
+
+        dist += Math.pow(
+            Math.abs(candidate.stats.dipl - peace), 2
+        );
+
+        dist += Math.pow(
+            Math.abs(candidate.stats.govt - liberty), 2
+        );
+
+        dist += Math.pow(
+            Math.abs(candidate.stats.scty - progress), 2
+        );
+
+        if (dist < ideodist) {
+            ideodist = dist;
+            ideology = candidate.name;
+            closestIdeology = candidate;
+        }
     }
 }
 
-document.getElementById("ideology-label").innerHTML = ideology;
+if (closestIdeology) {
 
-// Generate shareable results image
+    document.getElementById("ideology-label").innerHTML =
+        ideology;
+
+    var distance = Math.sqrt(ideodist / 4);
+
+    document.getElementById("ideology-description").innerHTML =
+        "Your closest match is " + ideology +
+        ", based on its position across all four programming axes.";
+
+    document.getElementById("ideology-distance").innerHTML =
+        "Average axis distance: " + distance.toFixed(1) +
+        " points out of 100.";
+
+} else {
+
+    document.getElementById("ideology-label").innerHTML =
+        "No matching ideology found";
+
+    document.getElementById("ideology-description").innerHTML =
+        "The ideology database could not be loaded or contains no valid profiles.";
+
+    document.getElementById("ideology-distance").innerHTML = "";
+}
+
+
+// ==========================================
+// RESULTS IMAGE
+// ==========================================
+
 window.onload = function() {
+
     var c = document.createElement("canvas");
     var ctx = c.getContext("2d");
 
-    c.width = 800;
-    c.height = 650;
+    c.width = 1000;
+    c.height = 700;
 
     ctx.fillStyle = "#EEEEEE";
-    ctx.fillRect(0,0,800,650);
+    ctx.fillRect(0, 0, c.width, c.height);
 
-    img = document.getElementById("img-equality");
-    ctx.drawImage(img, 20, 170, 100, 100);
+    ctx.fillStyle = "#222222";
+    ctx.font = "bold 55px Montserrat";
+    ctx.textAlign = "left";
 
-    img = document.getElementById("img-wealth");
-    ctx.drawImage(img, 680, 170, 100, 100);
+    ctx.fillText("Programming Values", 30, 75);
 
-    img = document.getElementById("img-might");
-    ctx.drawImage(img, 20, 290, 100, 100);
+    ctx.font = "25px Montserrat";
+    ctx.fillText(ideology || "No ideology found", 30, 120);
 
-    img = document.getElementById("img-peace");
-    ctx.drawImage(img, 680, 290, 100, 100);
+    var axes = [
+        {
+            name: "Licensing",
+            value: equality,
+            left: "Open-source",
+            right: "Proprietary",
+            color: "#f44336"
+        },
+        {
+            name: "Innovation",
+            value: peace,
+            left: "Innovative",
+            right: "Standardized",
+            color: "#ff9800"
+        },
+        {
+            name: "Abstraction",
+            value: liberty,
+            left: "Low-level",
+            right: "High-level",
+            color: "#ffeb3b"
+        },
+        {
+            name: "Wackiness",
+            value: progress,
+            left: "Wacky",
+            right: "Conventional",
+            color: "#8bc34a"
+        }
+    ];
 
-    img = document.getElementById("img-liberty");
-    ctx.drawImage(img, 20, 410, 100, 100);
+    for (var i = 0; i < axes.length; i++) {
 
-    img = document.getElementById("img-authority");
-    ctx.drawImage(img, 680, 410, 100, 100);
+        var axis = axes[i];
+        var y = 190 + i * 120;
 
-    img = document.getElementById("img-tradition");
-    ctx.drawImage(img, 20, 530, 100, 100);
+        ctx.fillStyle = "#222222";
+        ctx.font = "bold 25px Montserrat";
+        ctx.textAlign = "center";
 
-    img = document.getElementById("img-progress");
-    ctx.drawImage(img, 680, 530, 100, 100);
+        ctx.fillText(axis.name, 500, y - 15);
 
-    ctx.fillStyle="#222222";
+        ctx.fillStyle = "#333333";
+        ctx.fillRect(150, y, 700, 65);
 
-    ctx.fillRect(120, 180, 560, 80);
-    ctx.fillRect(120, 300, 560, 80);
-    ctx.fillRect(120, 420, 560, 80);
-    ctx.fillRect(120, 540, 560, 80);
+        ctx.fillStyle = axis.color;
+        ctx.fillRect(
+            150,
+            y + 5,
+            6.9 * axis.value,
+            55
+        );
 
-    ctx.fillStyle="#f44336";
-    ctx.fillRect(120, 184, 5.6*equality-2, 72);
+        ctx.fillStyle = "#222222";
+        ctx.font = "18px Montserrat";
+        ctx.textAlign = "left";
 
-    ctx.fillStyle="#00897b";
-    ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72);
+        ctx.fillText(
+            axis.left + " " + axis.value.toFixed(1) + "%",
+            150,
+            y + 95
+        );
 
-    ctx.fillStyle="#ff9800";
-    ctx.fillRect(120, 304, 5.6*might-2, 72);
+        ctx.textAlign = "right";
 
-    ctx.fillStyle="#03a9f4";
-    ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72);
+        ctx.fillText(
+            axis.right + " " + (100 - axis.value).toFixed(1) + "%",
+            850,
+            y + 95
+        );
+    }
 
-    ctx.fillStyle="#ffeb3b";
-    ctx.fillRect(120, 424, 5.6*liberty-2, 72);
+    ctx.textAlign = "right";
+    ctx.font = "16px Montserrat";
+    ctx.fillText(version, 970, 680);
 
-    ctx.fillStyle="#3f51b5";
-    ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72);
+    document.getElementById("banner").src =
+        c.toDataURL("image/png");
+};
 
-    ctx.fillStyle="#8bc34a";
-    ctx.fillRect(120, 544, 5.6*tradition-2, 72);
-
-    ctx.fillStyle="#9c27b0";
-    ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72);
-
-    ctx.fillStyle="#222222";
-    ctx.font="700 80px Montserrat";
-    ctx.textAlign="left";
-
-    ctx.fillText("Programming Values", 20, 90);
-
-    ctx.font="35px Montserrat";
-    ctx.fillText(ideology, 20, 140);
-
-    ctx.textAlign="left";
-
-    if (equality > 30) {ctx.fillText(equality + "%", 130, 237.5);}
-    if (might > 30) {ctx.fillText(might + "%", 130, 357.5);}
-    if (liberty > 30) {ctx.fillText(liberty + "%", 130, 477.5);}
-    if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5);}
-
-    ctx.textAlign="right";
-
-    if (wealth > 30) {ctx.fillText(wealth + "%", 670, 237.5);}
-    if (peace > 30) {ctx.fillText(peace + "%", 670, 357.5);}
-    if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5);}
-    if (progress > 30) {ctx.fillText(progress + "%", 670, 597.5);}
-
-    ctx.font="300 25px Montserrat";
-    ctx.fillText("Programming Values", 780, 60);
-    ctx.fillText(version, 780, 90);
-
-    ctx.textAlign="center";
-
-    ctx.fillText("Licensing: " + document.getElementById("economic-label").innerHTML, 400, 175);
-    ctx.fillText("Innovation: " + document.getElementById("diplomatic-label").innerHTML, 400, 295);
-    ctx.fillText("Abstraction: " + document.getElementById("state-label").innerHTML, 400, 415);
-    ctx.fillText("Wackiness: " + document.getElementById("society-label").innerHTML, 400, 535);
-
-    document.getElementById("banner").src = c.toDataURL();
-}
 </script>
 
 </body>
+</html>
