@@ -119,3 +119,4 @@ ideologies = [
         "name": "Theoretical Computer Scientist",
         "stats": {"econ": 70, "dipl": 100, "govt": 60, "scty": 10}
     }
+];
