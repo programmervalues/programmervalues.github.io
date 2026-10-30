@@ -1,470 +1,121 @@
 ideologies = [
     {
-        "name": "Anarcho-Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
-        }
+        "name": "GNU/Linux Purist",
+        "stats": {"econ": 100, "dipl": 50, "govt": 80, "scty": 30}
     },
     {
-        "name": "Libertarian Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
-        }
+        "name": "Free Software Fundamentalist",
+        "stats": {"econ": 100, "dipl": 40, "govt": 50, "scty": 20}
     },
     {
-        "name": "Trotskyism",
-        "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
-        }
+        "name": "Open-Source Pragmatist",
+        "stats": {"econ": 100, "dipl": 70, "govt": 50, "scty": 70}
     },
     {
-        "name": "Marxism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
-        }
+        "name": "Copyleft Advocate",
+        "stats": {"econ": 100, "dipl": 50, "govt": 50, "scty": 40}
     },
     {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
-        }
+        "name": "Hacker Ethic",
+        "stats": {"econ": 100, "dipl": 90, "govt": 90, "scty": 10}
     },
     {
-        "name": "Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
+        "name": "Open-Source Idealist",
+        "stats": {"econ": 100, "dipl": 80, "govt": 40, "scty": 50}
     },
     {
-        "name": "Stalinism/Maoism",
-        "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 60
-        }
+        "name": "Permissive Licensing Advocate",
+        "stats": {"econ": 90, "dipl": 60, "govt": 50, "scty": 70}
     },
     {
-        "name": "Religious Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
-        }
+        "name": "FreeBSD Traditionalist",
+        "stats": {"econ": 90, "dipl": 30, "govt": 70, "scty": 20}
     },
     {
-        "name": "State Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
-        }
+        "name": "FOSS Pragmatist",
+        "stats": {"econ": 90, "dipl": 60, "govt": 40, "scty": 80}
     },
     {
-        "name": "Theocratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
-        }
+        "name": "GNU/Linux Enthusiast",
+        "stats": {"econ": 90, "dipl": 70, "govt": 70, "scty": 30}
     },
     {
-        "name": "Religious Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
-        }
+        "name": "Standards Advocate",
+        "stats": {"econ": 70, "dipl": 10, "govt": 50, "scty": 80}
     },
     {
-        "name": "Democratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
+        "name": "Enterprise Developer",
+        "stats": {"econ": 40, "dipl": 10, "govt": 20, "scty": 100}
     },
     {
-        "name": "Revolutionary Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
-        }
+        "name": "Pragmatic Programmer",
+        "stats": {"econ": 60, "dipl": 40, "govt": 30, "scty": 90}
     },
     {
-        "name": "Libertarian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
-        }
+        "name": "Modern Developer",
+        "stats": {"econ": 50, "dipl": 80, "govt": 20, "scty": 80}
     },
     {
-        "name": "Anarcho-Syndicalism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
-        }
+        "name": "Full-Stack Developer",
+        "stats": {"econ": 50, "dipl": 60, "govt": 20, "scty": 90}
     },
     {
-        "name": "Left-Wing Populism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
-        }
+        "name": "Software Architect",
+        "stats": {"econ": 50, "dipl": 30, "govt": 20, "scty": 90}
     },
     {
-        "name": "Theocratic Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
-        }
+        "name": "Centrist Developer",
+        "stats": {"econ": 50, "dipl": 50, "govt": 50, "scty": 50}
     },
     {
-        "name": "Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
-        }
+        "name": "Startup Hacker",
+        "stats": {"econ": 40, "dipl": 90, "govt": 30, "scty": 30}
     },
     {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
+        "name": "Indie Developer",
+        "stats": {"econ": 40, "dipl": 70, "govt": 40, "scty": 60}
     },
     {
-        "name": "Christian Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 50,
-            "scty": 30
-        }
+        "name": "Proprietary Software Developer",
+        "stats": {"econ": 10, "dipl": 50, "govt": 40, "scty": 80}
     },
     {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 80
-        }
+        "name": "Microsoft Ecosystem Enthusiast",
+        "stats": {"econ": 10, "dipl": 30, "govt": 20, "scty": 90}
     },
     {
-        "name": "Progressivism",
-        "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
-        }
+        "name": "Apple Ecosystem Enthusiast",
+        "stats": {"econ": 10, "dipl": 40, "govt": 10, "scty": 90}
     },
     {
-        "name": "Anarcho-Mutualism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
-        }
+        "name": "Low-Level Systems Programmer",
+        "stats": {"econ": 70, "dipl": 50, "govt": 100, "scty": 60}
     },
     {
-        "name": "National Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
-        }
+        "name": "Assembly Enthusiast",
+        "stats": {"econ": 70, "dipl": 80, "govt": 100, "scty": 20}
     },
     {
-        "name": "Global Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
-        }
+        "name": "C Programmer",
+        "stats": {"econ": 80, "dipl": 30, "govt": 100, "scty": 50}
     },
     {
-        "name": "Technocracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
-        }
+        "name": "Rust Enthusiast",
+        "stats": {"econ": 90, "dipl": 80, "govt": 80, "scty": 70}
     },
     {
-        "name": "Centrist",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
-        }
+        "name": "Functional Programming Enthusiast",
+        "stats": {"econ": 70, "dipl": 90, "govt": 40, "scty": 20}
     },
     {
-        "name": "Liberalism",
-        "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
-        }
+        "name": "Lisp Wizard",
+        "stats": {"econ": 80, "dipl": 100, "govt": 70, "scty": 0}
     },
     {
-        "name": "Religious Anarchism",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 20
-        }
+        "name": "TempleOS Enthusiast",
+        "stats": {"econ": 80, "dipl": 100, "govt": 100, "scty": 0}
     },
     {
-        "name": "Right-Wing Populism",
-        "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Moderate Conservatism",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Reactionary",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
-        }
-    },
-    {
-        "name": "Social Libertarianism",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarianism",
-        "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Anarcho-Egoism",
-        "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Nazism",
-        "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Autocracy",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Fascism",
-        "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Capitalist Fascism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Conservatism",
-        "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Neo-Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Classical Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Authoritarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
-        }
-    },
-    {
-        "name": "State Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Neo-Conservatism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Fundamentalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Libertarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Market Anarchism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Objectivism",
-        "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
-        }
-    },
-    {
-        "name": "Totalitarian Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Ultra-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Anarcho-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
+        "name": "Theoretical Computer Scientist",
+        "stats": {"econ": 70, "dipl": 100, "govt": 60, "scty": 10}
     }
-];
